@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../../../.vscode/extensions/Java01"
+		},
+		{
+			"path": "../Java programs"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src",
+			"."
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"test-lib\\**\\*.jar"
+		],
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

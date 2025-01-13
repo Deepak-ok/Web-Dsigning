@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    cursor: pointer;
+    background: none;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 7px 16px;
+    line-height: 1.2;
+}
+.btn-dark-outline{
+    border-color: #000;
+    color: #000;
+    font-weight: bold;
+}
+.btn-dark{
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-dark:hover{
+    background-color: #333;
+}
+.btn-dark-outline:hover{
+    background-color: rgba(0,0,0,0.56);
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.navbar-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    margin: 0 15px;
+    font-weight: bold;
+}
+.navbar a{
+    color: black;
+    font-size: 14px;
+}
+.navbar a:hover{
+    color: #00754a;
+}
+.navbar-nav-left{
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.navbar-nav-right i{
+   font-size: 15px;
+   margin-right: 10px;
+
+}
+
+/* product div start */
+.product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+    /* box-sizing: border-box; */
+    width:95%;
+    height: 600px;
+}
+.product img{
+   max-width: 104%;
+   height:600px;
+}
+.product-text{
+    max-width: 50%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.product-title{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+.product-desc{
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin: 28px -92px;
+}
+.btn-dark-outline{
+    border-color:white;
+    color:white;
+    font-weight: bold;
+    background: #9f0909;
+}
+.product-desc-lg{
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+.product2{
+    margin: 8px 169px;
+    font-size: 35px;
+    text-align: center;
+    color: #000;
+}
+
+.product-desc-2{
+    font-size: 27px;
+    margin: 35px -99px;
+}
+/* .btn-dark-outline2{
+    border-color: #000;
+    color: #000;
+    font-weight: bold;
+} */
+ h4{
+    font-size: small;
+    word-spacing: 2px;
+    margin: 85px 435px;
+ }
+ .footer{
+    width: 100%;
+    height: auto;
+    /* padding: 20px 0; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    list-style: none;
+    display: flex;
+    float: left;
+ }
+ .footer-content{
+    text-transform: capitalize;
+    margin: 10px 20px;
+ }
+ .footer-content h3{
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: #333030e8;
+ }
+ .footer-content li{
+    word-spacing: 2px;
+    padding: 0 9px;
+    margin: 20px 0;
+    font-weight: lighter;
+    
+}
+.footer-content li a{
+    color: #787171;
+}
+.footer-content li a:hover{
+    color: #333;
+}
+
+/* .end ul li {
+    margin: 10px 7px;
+    color: #000;
+    font-size: 27px;
+    display:ruby-text-container;
+    /* float: left; */
+    
+    /* box-shadow: inset 0 -2px 0 #fff; 
+} */
+ .footerend{
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-top: 150px;
+ }
+ .footercopy{
+    display: inline;
+    /* margin-left: 20px; */
+ }
+ .footercopy i{
+    padding: 4px 6px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 27px 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(255, 253, 253);
+     height: 35px;
+    width: 35px; */
+ }
+ .endText li{
+    margin-bottom: 16px;
+}
+.endText li a{
+    margin-left: 10px;
+    display: block;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.endText li a:hover{
+    text-decoration: underline;
+}
+.last{
+    margin-left :-430px;
+    padding-bottom: 50px;
+    margin-top: 30px; 
+}
+.last h4{
+    color: #a79e9e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
